@@ -2,63 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 98%;
-    --accent-foreground: 0 0% 9%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
-    --radius: 0.5rem;
-    
-    --chart-1: 271.5 81.3% 55.9%;
-    --chart-2: 270 95% 75%;
-    --chart-3: 270 91% 65%;
-    --chart-4: 269 97% 85%;
-    --chart-5: 269 100% 92%;
-  }
+:root {
+  --border: 217 16% 95%; /* Light gray for borders */
+  --input: 217 16% 98%; /* Light gray input */
+  --ring: 217 100% 59%; /* Bright blue for focus ring */
+  --background: 0 0% 100%; /* White background */
+  --foreground: 217 28% 20%; /* Dark gray for text */
+  --primary: 217 100% 55%; /* Bright blue for primary elements */
+  --primary-foreground: 0 0% 100%; /* White text on primary buttons */
+  --secondary: 217 20% 85%; /* Light blue for secondary elements */
+  --secondary-foreground: 217 28% 20%; /* Dark gray for secondary text */
+  --destructive: 0 100% 62%; /* Red for destructive actions */
+  --destructive-foreground: 0 0% 100%; /* White text on red buttons */
+  --muted: 217 12% 94%; /* Very light gray for muted areas */
+  --muted-foreground: 217 28% 50%; /* Medium gray for muted text */
+  --accent: 217 100% 55%; /* Same bright blue for accent */
+  --accent-foreground: 0 0% 100%; /* White text for accent */
+  --popover: 0 0% 100%; /* White popover background */
+  --popover-foreground: 217 28% 20%; /* Dark gray text for popovers */
+  --card: 0 0% 100%; /* White background for cards */
+  --card-foreground: 217 28% 20%; /* Dark gray for card text */
+}
 
-  .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 8%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 0 0% 83.1%;
-
-    --chart-1: 271.5 81.3% 55.9%;
-    --chart-2: 270 95% 75%;
-    --chart-3: 270 91% 65%;
-    --chart-4: 269 97% 85%;
-    --chart-5: 269 100% 92%;
-  }
+.dark {
+  --border: 217 28% 10%; /* Dark gray border */
+  --input: 217 28% 12%; /* Dark gray input background */
+  --ring: 217 100% 59%; /* Bright blue focus ring */
+  --background: 217 28% 10%; /* Dark gray background */
+  --foreground: 0 0% 100%; /* White text on dark background */
+  --primary: 217 100% 55%; /* Bright blue for primary elements */
+  --primary-foreground: 0 0% 100%; /* White text on primary */
+  --secondary: 217 20% 30%; /* Darker blue for secondary elements */
+  --secondary-foreground: 0 0% 100%; /* White text for secondary */
+  --destructive: 0 100% 62%; /* Red for destructive actions */
+  --destructive-foreground: 0 0% 100%; /* White text on destructive */
+  --muted: 217 28% 12%; /* Dark gray for muted areas */
+  --muted-foreground: 217 28% 70%; /* Light gray for muted text */
+  --accent: 217 100% 55%; /* Bright blue for accent */
+  --accent-foreground: 0 0% 100%; /* White for accent text */
+  --popover: 217 28% 10%; /* Dark gray popover background */
+  --popover-foreground: 0 0% 100%; /* White text on popover */
+  --card: 217 28% 10%; /* Dark gray for card background */
+  --card-foreground: 0 0% 100%; /* White text on cards */
 }
 
 @layer base {
@@ -85,7 +70,7 @@
 }
 
 .text-gradient_indigo-purple {
-  background: linear-gradient(90deg, #6366f1 0%, rgb(168 85 247 / 0.8) 100%);
+  background: linear-gradient(90deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

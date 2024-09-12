@@ -4,7 +4,6 @@ import { useContext } from "react";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 import { useSession } from "next-auth/react";
-
 import { docsConfig } from "@/config/docs";
 import { marketingConfig } from "@/config/marketing";
 import { siteConfig } from "@/config/site";
@@ -16,6 +15,7 @@ import { DocsSearch } from "@/components/docs/search";
 import { ModalContext } from "@/components/modals/providers";
 import { Icons } from "@/components/shared/icons";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
+import TOGO from "@/components/shared/TOGO";
 
 interface NavBarProps {
   scroll?: boolean;
@@ -49,10 +49,10 @@ export function NavBar({ scroll = false }: NavBarProps) {
       >
         <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-1.5">
-            <Icons.logo />
-            <span className="font-urban text-xl font-bold">
-              {siteConfig.name}
-            </span>
+          {/* <Icons.logo className="size-20 rounded-full" /> */}
+          
+          
+          <TOGO width={150} height={150} />
           </Link>
 
           {links && links.length > 0 ? (

@@ -1,7 +1,8 @@
 {
-  "name": "saas-starter",
+  "name": "huquq-ai",
   "version": "0.3.1",
   "private": true,
+  "description": "THE #1 AI Legal PLATFORM in Saudi Arabia",
   "author": {
     "name": "mickasmt",
     "url": "https://twitter.com/mickasmt"
@@ -89,6 +90,7 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@svgr/webpack": "^8.1.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^20.14.11",
@@ -96,7 +98,7 @@
     "@types/react-dom": "18.3.0",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5",
+    "eslint-config-next": "^14.2.5",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-tailwindcss": "^3.17.4",
