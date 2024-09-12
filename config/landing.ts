@@ -1,150 +1,153 @@
 import { FeatureLdg, InfoLdg, TestimonialType } from "types";
 
+// Updated Infos Section
 export const infos: InfoLdg[] = [
   {
-    title: "Empower your projects",
+    title: "Empower your legal needs",
     description:
-      "Unlock the full potential of your projects with our open-source SaaS platform. Collaborate seamlessly, innovate effortlessly, and scale limitlessly.",
+      "Unlock the full potential of your legal processes with Huquq.AI. Manage your legal tasks efficiently, stay compliant, and focus on growing your business.",
     image: "/_static/illustrations/work-from-home.jpg",
     list: [
       {
-        title: "Collaborative",
-        description: "Work together with your team members in real-time.",
+        title: "Comprehensive Legal Support",
+        description: "Access legal advice and resources tailored to your business.",
         icon: "laptop",
       },
       {
-        title: "Innovative",
-        description: "Stay ahead of the curve with access constant updates.",
+        title: "Up-to-date Insights",
+        description: "Stay compliant with the latest legal regulations and updates.",
         icon: "settings",
       },
       {
-        title: "Scalable",
+        title: "Scalable Solutions",
         description:
-          "Our platform offers the scalability needed to adapt to your needs.",
+          "Huquq.AI adapts to the growing legal needs of your business.",
         icon: "search",
       },
     ],
   },
   {
-    title: "Seamless Integration",
+    title: "Seamless Legal Integration",
     description:
-      "Integrate our open-source SaaS seamlessly into your existing workflows. Effortlessly connect with your favorite tools and services for a streamlined experience.",
+      "Integrate Huquq.AI into your business workflows for a seamless legal experience. Effortlessly manage legal tasks with easy-to-use tools and services.",
     image: "/_static/illustrations/work-from-home.jpg",
     list: [
       {
-        title: "Flexible",
+        title: "Customizable Solutions",
         description:
-          "Customize your integrations to fit your unique requirements.",
+          "Tailor Huquq.AI to meet your specific legal requirements.",
         icon: "laptop",
       },
       {
-        title: "Efficient",
-        description: "Streamline your processes and reducing manual effort.",
+        title: "Efficient Workflows",
+        description: "Reduce manual effort and streamline legal processes.",
         icon: "search",
       },
       {
-        title: "Reliable",
+        title: "Reliable Support",
         description:
-          "Rely on our robust infrastructure and comprehensive documentation.",
+          "Count on our robust platform to provide consistent legal guidance.",
         icon: "settings",
       },
     ],
   },
 ];
 
+// Updated Features Section
 export const features: FeatureLdg[] = [
   {
-    title: "Feature 1",
+    title: "AI-Powered Legal Assistance",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Leverage the power of AI to handle your legal needs efficiently and accurately.",
     link: "/",
     icon: "nextjs",
   },
   {
-    title: "Feature 2",
+    title: "On-demand Legal Advice",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Access legal advice whenever you need it with Huquq.AI's intelligent platform.",
     link: "/",
     icon: "google",
   },
   {
-    title: "Feature 3",
+    title: "Efficient Document Management",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Manage and review your legal documents with ease using Huquq.AI.",
     link: "/",
     icon: "gitHub",
   },
   {
-    title: "Feature 4",
+    title: "Compliance Assurance",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Ensure your business is always compliant with the latest legal regulations.",
     link: "/",
     icon: "laptop",
   },
   {
-    title: "Feature 5",
+    title: "Scalable for Businesses",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Our platform scales to meet the legal needs of businesses of all sizes.",
     link: "/",
     icon: "user",
   },
   {
-    title: "Feature 6",
+    title: "Affordable Legal Solutions",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Get high-quality legal assistance at an affordable price with Huquq.AI.",
     link: "/",
     icon: "copy",
   },
 ];
 
+// Updated Testimonials Section
 export const testimonials: TestimonialType[] = [
   {
     name: "John Doe",
     job: "Full Stack Developer",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     review:
-      "The next-saas-stripe-starter repo has truly revolutionized my development workflow. With its comprehensive features and seamless integration with Stripe, I've been able to build and deploy projects faster than ever before. The documentation is clear and concise, making it easy to navigate through the setup process. I highly recommend next-saas-stripe-starter to any developer.",
+      "Huquq.AI has revolutionized how I handle my legal tasks. With its seamless integration, I can focus on growing my business while staying legally compliant.",
   },
   {
     name: "Alice Smith",
     job: "UI/UX Designer",
     image: "https://randomuser.me/api/portraits/women/2.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "The legal tools provided by Huquq.AI allow me to manage legal documents efficiently. It's the perfect solution for businesses looking to streamline their legal processes.",
   },
   {
     name: "David Johnson",
     job: "DevOps Engineer",
     image: "https://randomuser.me/api/portraits/men/3.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I was able to streamline the entire process and get payments up and running in no time. ",
+      "Huquq.AI made it easy for me to manage legal compliance without needing a full-time legal team. It's fast, efficient, and reliable.",
   },
   {
     name: "Michael Wilson",
     job: "Project Manager",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
     review:
-      "I'm impressed by the quality of code and clear documentation of next-saas-stripe-starter. Kudos to the team!",
+      "The legal support from Huquq.AI has been a game-changer. The platform is easy to use, and it saves me so much time and effort.",
   },
   {
     name: "Sophia Garcia",
     job: "Data Analyst",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
     review:
-      "next-saas-stripe-starter provided me with the tools I needed to efficiently manage user data. Thank you so much!",
+      "I use Huquq.AI to handle all my legal documents. It's efficient and helps me stay on top of my business's legal needs.",
   },
   {
     name: "Emily Brown",
     job: "Marketing Manager",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
     review:
-      "next-saas-stripe-starter has been an invaluable asset in my role as a marketing manager. With its seamless integration with Stripe, I've been able to launch targeted marketing campaigns with built-in payment functionality, allowing us to monetize our products and services more effectively.",
+      "Huquq.AI's platform has made managing legal tasks so much easier. The integration with other tools allows me to stay organized and compliant.",
   },
   {
     name: "Jason Stan",
     job: "Web Designer",
     image: "https://randomuser.me/api/portraits/men/9.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "I love how easy it is to manage my legal processes with Huquq.AI. It allows me to focus on my work without worrying about the legal side of things.",
   },
 ];
